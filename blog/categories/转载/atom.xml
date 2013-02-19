@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: 转载 | 心静茹水]]></title>
-  <link href="http://lovejingru.github.com/blog/categories/转载/atom.xml" rel="self"/>
-  <link href="http://lovejingru.github.com/"/>
-  <updated>2013-02-19T10:11:31+08:00</updated>
-  <id>http://lovejingru.github.com/</id>
+  <link href="http://seagg.github.com/blog/categories/转载/atom.xml" rel="self"/>
+  <link href="http://seagg.github.com/"/>
+  <updated>2013-02-19T10:14:39+08:00</updated>
+  <id>http://seagg.github.com/</id>
   <author>
     <name><![CDATA[Zhao, Xuhai]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Blogging Like a Hacker]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/03/blogging-like-a-hacker/"/>
+    <link href="http://seagg.github.com/blog/2012/09/03/blogging-like-a-hacker/"/>
     <updated>2012-09-03T12:42:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/03/blogging-like-a-hacker</id>
+    <id>http://seagg.github.com/blog/2012/09/03/blogging-like-a-hacker</id>
     <content type="html"><![CDATA[<p><strong>转载自<a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html">Blogging like a hacker</a></strong></p>
 
 <p>h1. Category: 转载</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: PHP | 心静茹水]]></title>
-  <link href="http://lovejingru.github.com/blog/categories/php/atom.xml" rel="self"/>
-  <link href="http://lovejingru.github.com/"/>
-  <updated>2013-02-19T10:11:31+08:00</updated>
-  <id>http://lovejingru.github.com/</id>
+  <link href="http://seagg.github.com/blog/categories/php/atom.xml" rel="self"/>
+  <link href="http://seagg.github.com/"/>
+  <updated>2013-02-19T10:14:39+08:00</updated>
+  <id>http://seagg.github.com/</id>
   <author>
     <name><![CDATA[Zhao, Xuhai]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[nginx+fastcgi下开发php扩展]]></title>
-    <link href="http://lovejingru.github.com/blog/2013/01/22/php-extension/"/>
+    <link href="http://seagg.github.com/blog/2013/01/22/php-extension/"/>
     <updated>2013-01-22T15:26:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2013/01/22/php-extension</id>
+    <id>http://seagg.github.com/blog/2013/01/22/php-extension</id>
     <content type="html"><![CDATA[<p>本文参考：<a href="http://www.laruence.com/2009/04/28/719.html">用C/C++扩展你的PHP</a>  <br/>
 要开发扩展，首先需要有php的源码包，可以到php官网下载，我使用的版本是5.3.10，之后解压，进入ext目录里。  <br/>
 先建立一个函数定义到.def文件当中，比如<code>string self_concat(string str, int n)</code>，这样的话，会在稍后生成的扩展框架中自动添加函数原型和一个默认实现。当然，也可以不使用这个文件，手动去建立函数。</p>
@@ -120,9 +120,9 @@ make install
   
   <entry>
     <title type="html"><![CDATA[Yaf框架在nginx虚拟主机中的配置]]></title>
-    <link href="http://lovejingru.github.com/blog/2013/01/14/yaf-nginx/"/>
+    <link href="http://seagg.github.com/blog/2013/01/14/yaf-nginx/"/>
     <updated>2013-01-14T20:19:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2013/01/14/yaf-nginx</id>
+    <id>http://seagg.github.com/blog/2013/01/14/yaf-nginx</id>
     <content type="html"><![CDATA[<p>主要是配置一下rewrite规则，重写URL。另外，<code>fastcgi_param PATH_INFO</code>这个不能有，要不然rewrite不能生效...  <br/>
 ``` nginx Yaf框架在nginx虚拟主机中的配置
 server

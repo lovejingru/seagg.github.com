@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: octopress | 心静茹水]]></title>
-  <link href="http://lovejingru.github.com/blog/categories/octopress/atom.xml" rel="self"/>
-  <link href="http://lovejingru.github.com/"/>
-  <updated>2013-02-19T10:11:31+08:00</updated>
-  <id>http://lovejingru.github.com/</id>
+  <link href="http://seagg.github.com/blog/categories/octopress/atom.xml" rel="self"/>
+  <link href="http://seagg.github.com/"/>
+  <updated>2013-02-19T10:14:39+08:00</updated>
+  <id>http://seagg.github.com/</id>
   <author>
     <name><![CDATA[Zhao, Xuhai]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[向Octopress博客添加相册功能]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/06/support-gallery/"/>
+    <link href="http://seagg.github.com/blog/2012/09/06/support-gallery/"/>
     <updated>2012-09-06T17:27:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/06/support-gallery</id>
+    <id>http://seagg.github.com/blog/2012/09/06/support-gallery</id>
     <content type="html"><![CDATA[<p>唉，今天又没干别的，调试了一整天的Octopress，老板我对不起你。。。 <br/>
 今天向我的博客添加了About Me页面和相册页面，这里主要说说相册功能是如何添加的。  <br/>
 对于Octopress这种轻量级的静态博客，没有必要将相册功能做的很完善，神马添加相册，上传照片功能啥的都本地手动添加就行了，这里的相册主要就是展示一下照片，而且在简洁素雅的前提下最好有一些酷酷的效果，这就是我的追求。  <br/>
@@ -25,7 +25,7 @@
 fancyBox主要用于在网页中展示相册，单击相片墙中的一个相片的时候，能够有淡入淡出的效果，且能自如的通过鼠标滚轮或者相片两侧的向上向下按钮浏览整个相册的内容。从<a href="http://fancyapps.com/fancybox/#license">fancyBox</a>下载之后运行一下Demo会有更好的理解。</p>
 
 <center>
-<img src="http://lovejingru.github.com/images/support_gallery.JPG">
+<img src="http://seagg.github.com/images/support_gallery.JPG">
 </center>
 
 
@@ -59,9 +59,9 @@ footer: false
   
   <entry>
     <title type="html"><![CDATA[Octopress添加tag cloud且支持中文]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/05/add-tag-cloud-and-support-chinese/"/>
+    <link href="http://seagg.github.com/blog/2012/09/05/add-tag-cloud-and-support-chinese/"/>
     <updated>2012-09-05T19:06:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/05/add-tag-cloud-and-support-chinese</id>
+    <id>http://seagg.github.com/blog/2012/09/05/add-tag-cloud-and-support-chinese</id>
     <content type="html"><![CDATA[<p>今天上班又不务正业了，主要是昨天晚上就完成了老板最近布置的修改JIRA插件，添加敏感关键字检测及提供修改功能的任务，上午给老板演示了一下，在他提出的各种极端情况下插件都能很好的工作，老板让我今天在界面上加些交互信息，使交互更加友好。 <br/>
 整个白天都在折腾我的Octopress博客，这个果然很需要耐心，还好我最近已经被java的各种bug折磨的宠辱不惊了。今天主要添加了tag功能。正如<a href="http://log4d.com/2012/05/tag-cloud/">Log4D</a>所说的那样，一篇文章只能输入一个category，但可以有多个tag，我很同意这个观点。我这里也是用了他所用的两个插件<a href="https://github.com/robbyedwards/octopress-tag-pages">robbyedwards/octopress-tag-pages</a>和<a href="https://github.com/robbyedwards/octopress-tag-cloud">robbyedwards/octopress-tag-cloud</a>,不过跟他不同的是，我只用了官方网站上提供的两个插件，因为我觉得category还是排列整齐点的好，毕竟一个博客的category不会很多，没有必要弄成tag那种有大有小的样式，所以category我还沿用了Octopress官方的样式。这两个插件安装起来不太难，不过有些细节需要注意的。  <br/>
 第一个插件的功能是使文章支持<code>tag</code>，第二个是集中显示<code>tag cloud</code>。</p>
@@ -101,9 +101,9 @@ footer: false
   
   <entry>
     <title type="html"><![CDATA[给octopress添加Disqus评论功能]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/03/config-comment-on-octopress/"/>
+    <link href="http://seagg.github.com/blog/2012/09/03/config-comment-on-octopress/"/>
     <updated>2012-09-03T19:16:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/03/config-comment-on-octopress</id>
+    <id>http://seagg.github.com/blog/2012/09/03/config-comment-on-octopress</id>
     <content type="html"><![CDATA[<p>经过了几天的折腾，昨天终于把octopress博客建立好了。更新起来很方便，只需要编写类似Latex语言的markdown文件，然后<code>rake generate</code>, <code>rake deploy</code>就可以啦。</p>
 
 <p>今天加入了评论功能，这里主要记录下添加评论的过程。Octopress中其实已经集成了Disqus评论插件，只需要简单设置一下就可以。</p>
@@ -115,7 +115,7 @@ footer: false
 
 
 <center>
-<img src="http://lovejingru.github.com/images/add_comment1.PNG" >
+<img src="http://seagg.github.com/images/add_comment1.PNG" >
 </center>
 
 
@@ -125,7 +125,7 @@ footer: false
 
 
 <center>
-<img src="http://lovejingru.github.com/images/add_comment2.PNG">
+<img src="http://seagg.github.com/images/add_comment2.PNG">
 </center>
 
 
@@ -148,9 +148,9 @@ disqus_show_comment_count: true</code></pre>
   
   <entry>
     <title type="html"><![CDATA[新的Blog]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/03/work-in-intel/"/>
+    <link href="http://seagg.github.com/blog/2012/09/03/work-in-intel/"/>
     <updated>2012-09-03T09:50:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/03/work-in-intel</id>
+    <id>http://seagg.github.com/blog/2012/09/03/work-in-intel</id>
     <content type="html"><![CDATA[<p>好费劲啊，octopress博客终于整好了。<br>
 我会慢慢的从网易博客<a href="http://blog.163.com/lovejingru@yeah/">永远的海哥</a>迁移到这里。  <br/>
 问题总结如下：</p>

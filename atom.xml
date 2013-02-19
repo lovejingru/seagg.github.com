@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[心静茹水]]></title>
-  <link href="http://lovejingru.github.com/atom.xml" rel="self"/>
-  <link href="http://lovejingru.github.com/"/>
-  <updated>2013-02-19T10:11:31+08:00</updated>
-  <id>http://lovejingru.github.com/</id>
+  <link href="http://seagg.github.com/atom.xml" rel="self"/>
+  <link href="http://seagg.github.com/"/>
+  <updated>2013-02-19T10:14:39+08:00</updated>
+  <id>http://seagg.github.com/</id>
   <author>
     <name><![CDATA[Zhao, Xuhai]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[nginx+fastcgi下开发php扩展]]></title>
-    <link href="http://lovejingru.github.com/blog/2013/01/22/php-extension/"/>
+    <link href="http://seagg.github.com/blog/2013/01/22/php-extension/"/>
     <updated>2013-01-22T15:26:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2013/01/22/php-extension</id>
+    <id>http://seagg.github.com/blog/2013/01/22/php-extension</id>
     <content type="html"><![CDATA[<p>本文参考：<a href="http://www.laruence.com/2009/04/28/719.html">用C/C++扩展你的PHP</a>  <br/>
 要开发扩展，首先需要有php的源码包，可以到php官网下载，我使用的版本是5.3.10，之后解压，进入ext目录里。  <br/>
 先建立一个函数定义到.def文件当中，比如<code>string self_concat(string str, int n)</code>，这样的话，会在稍后生成的扩展框架中自动添加函数原型和一个默认实现。当然，也可以不使用这个文件，手动去建立函数。</p>
@@ -147,9 +147,9 @@ make install
   
   <entry>
     <title type="html"><![CDATA[Yaf框架在nginx虚拟主机中的配置]]></title>
-    <link href="http://lovejingru.github.com/blog/2013/01/14/yaf-nginx/"/>
+    <link href="http://seagg.github.com/blog/2013/01/14/yaf-nginx/"/>
     <updated>2013-01-14T20:19:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2013/01/14/yaf-nginx</id>
+    <id>http://seagg.github.com/blog/2013/01/14/yaf-nginx</id>
     <content type="html"><![CDATA[<p>主要是配置一下rewrite规则，重写URL。另外，<code>fastcgi_param PATH_INFO</code>这个不能有，要不然rewrite不能生效&#8230;</p>
 
 <figure class='code'><figcaption><span>Yaf框架在nginx虚拟主机中的配置</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -241,9 +241,9 @@ make install
   
   <entry>
     <title type="html"><![CDATA[Lua中通过ffi调用c的结构体变量]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/12/24/lua-struct/"/>
+    <link href="http://seagg.github.com/blog/2012/12/24/lua-struct/"/>
     <updated>2012-12-24T18:08:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/12/24/lua-struct</id>
+    <id>http://seagg.github.com/blog/2012/12/24/lua-struct</id>
     <content type="html"><![CDATA[<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
 <span class='line-number'>3</span>
@@ -289,9 +289,9 @@ make install
   
   <entry>
     <title type="html"><![CDATA[Lua中实现php序列化及反序列化函数]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/12/22/lua-php-serialize/"/>
+    <link href="http://seagg.github.com/blog/2012/12/22/lua-php-serialize/"/>
     <updated>2012-12-22T15:07:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/12/22/lua-php-serialize</id>
+    <id>http://seagg.github.com/blog/2012/12/22/lua-php-serialize</id>
     <content type="html"><![CDATA[<p>好高兴啊，昨天翻遍了lua自带的库，又在网上找了一天如何在lua中序列化以及反序列化，但结果都不是我要的，因为我要在lua中反序列化由php序列化函数序列化的一个字符串，比如这样的：</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -843,9 +843,9 @@ make install
   
   <entry>
     <title type="html"><![CDATA[二叉树排序]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/11/binary-tree-sort/"/>
+    <link href="http://seagg.github.com/blog/2012/09/11/binary-tree-sort/"/>
     <updated>2012-09-11T09:02:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/11/binary-tree-sort</id>
+    <id>http://seagg.github.com/blog/2012/09/11/binary-tree-sort</id>
     <content type="html"><![CDATA[<p>唉，在公司实习都呆傻了，现在写起C++的程序都这么费劲。早上试着写了个二叉树排序都花了半个多小时，这要是半年前的我。。。</p>
 
 <figure class='code'><figcaption><span>二叉树排序</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -1003,9 +1003,9 @@ make install
   
   <entry>
     <title type="html"><![CDATA[textarea的内容中含有html的情况]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/10/string-html/"/>
+    <link href="http://seagg.github.com/blog/2012/09/10/string-html/"/>
     <updated>2012-09-10T11:22:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/10/string-html</id>
+    <id>http://seagg.github.com/blog/2012/09/10/string-html</id>
     <content type="html"><![CDATA[<p>还有一周就可以回学校然后回家了，上周五很顺利的跟老板和经理请了两周假，所以这周得认真工作了。 <br/>
 接着测试我写的插件，果然发现了问题。。。  <br/>
 大概是这样的，这个插件是JIRA系统间传递issues，每个issue有很多的field，老板为了保证安全，要求在传输的时候检测每个域，看有没有指定的敏感关键字，如果有要求用户传输issue中进行修改，今天测试的时候，发现有个description域传输有问题，即如果description中含有关键字，要求用户在textarea中修改，程序再读取textarea中的内容重新存入issue中供传输。  <br/>
@@ -1027,9 +1027,9 @@ make install
   
   <entry>
     <title type="html"><![CDATA[CSS Hack: 浏览器兼容性问题]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/08/css-hack/"/>
+    <link href="http://seagg.github.com/blog/2012/09/08/css-hack/"/>
     <updated>2012-09-08T11:14:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/08/css-hack</id>
+    <id>http://seagg.github.com/blog/2012/09/08/css-hack</id>
     <content type="html"><![CDATA[<p>直接看实例吧，下面的程序转载自: <a href="http://www.cnblogs.com/superc/archive/2012/03/11/2390652.html">Superc</a>和<a href="http://www.cnblogs.com/WuQiang/archive/2011/08/23/2150240.html">飘</a></p>
 
 <pre><code>"\9"　例:"margin:0px auto\9;".这里的"\9"可以区别所有IE和FireFox.
@@ -1179,7 +1179,7 @@ make install
 <p>附上一张CSS Hack样式属性前缀表</p>
 
 <center>
-<img src="http://lovejingru.github.com/images/css_hack.jpg">
+<img src="http://seagg.github.com/images/css_hack.jpg">
 </center>
 
 ]]></content>
@@ -1187,9 +1187,9 @@ make install
   
   <entry>
     <title type="html"><![CDATA[向Octopress博客添加相册功能]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/06/support-gallery/"/>
+    <link href="http://seagg.github.com/blog/2012/09/06/support-gallery/"/>
     <updated>2012-09-06T17:27:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/06/support-gallery</id>
+    <id>http://seagg.github.com/blog/2012/09/06/support-gallery</id>
     <content type="html"><![CDATA[<p>唉，今天又没干别的，调试了一整天的Octopress，老板我对不起你。。。 <br/>
 今天向我的博客添加了About Me页面和相册页面，这里主要说说相册功能是如何添加的。  <br/>
 对于Octopress这种轻量级的静态博客，没有必要将相册功能做的很完善，神马添加相册，上传照片功能啥的都本地手动添加就行了，这里的相册主要就是展示一下照片，而且在简洁素雅的前提下最好有一些酷酷的效果，这就是我的追求。  <br/>
@@ -1197,7 +1197,7 @@ make install
 fancyBox主要用于在网页中展示相册，单击相片墙中的一个相片的时候，能够有淡入淡出的效果，且能自如的通过鼠标滚轮或者相片两侧的向上向下按钮浏览整个相册的内容。从<a href="http://fancyapps.com/fancybox/#license">fancyBox</a>下载之后运行一下Demo会有更好的理解。</p>
 
 <center>
-<img src="http://lovejingru.github.com/images/support_gallery.JPG">
+<img src="http://seagg.github.com/images/support_gallery.JPG">
 </center>
 
 
@@ -1208,7 +1208,7 @@ fancyBox主要用于在网页中展示相册，单击相片墙中的一个相片
 
 <p>仿造上面的添加一个相册页面的链接，比如这样：</p>
 
-<pre><code>&lt;li&gt;&lt;a href="http://lovejingru.github.com/blog/gallery/demo"&gt;Gallery&lt;/a&gt;&lt;/li&gt;    
+<pre><code>&lt;li&gt;&lt;a href="http://seagg.github.com/blog/gallery/demo"&gt;Gallery&lt;/a&gt;&lt;/li&gt;    
 </code></pre>
 
 <p>我这里偷懒了，直接在他的demo上建立的我的相册功能，这样很方便，而且完全能满足我要的功能。  <br/>
@@ -1231,9 +1231,9 @@ footer: false
   
   <entry>
     <title type="html"><![CDATA[指针数组与数组指针]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/06/array-and-pointer/"/>
+    <link href="http://seagg.github.com/blog/2012/09/06/array-and-pointer/"/>
     <updated>2012-09-06T08:59:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/06/array-and-pointer</id>
+    <id>http://seagg.github.com/blog/2012/09/06/array-and-pointer</id>
     <content type="html"><![CDATA[<p>昨天从面试宝典上看了道关于指针的面试题，发现这个上次绿盟科技笔试的时候考过，当时很凌乱，有几个记混了。</p>
 
 <p>题目是这样的：</p>
@@ -1267,9 +1267,9 @@ h) int (*a[10])(int); // An array of 10 pointers to functions that take an integ
   
   <entry>
     <title type="html"><![CDATA[Octopress添加tag cloud且支持中文]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/05/add-tag-cloud-and-support-chinese/"/>
+    <link href="http://seagg.github.com/blog/2012/09/05/add-tag-cloud-and-support-chinese/"/>
     <updated>2012-09-05T19:06:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/05/add-tag-cloud-and-support-chinese</id>
+    <id>http://seagg.github.com/blog/2012/09/05/add-tag-cloud-and-support-chinese</id>
     <content type="html"><![CDATA[<p>今天上班又不务正业了，主要是昨天晚上就完成了老板最近布置的修改JIRA插件，添加敏感关键字检测及提供修改功能的任务，上午给老板演示了一下，在他提出的各种极端情况下插件都能很好的工作，老板让我今天在界面上加些交互信息，使交互更加友好。 <br/>
 整个白天都在折腾我的Octopress博客，这个果然很需要耐心，还好我最近已经被java的各种bug折磨的宠辱不惊了。今天主要添加了tag功能。正如<a href="http://log4d.com/2012/05/tag-cloud/">Log4D</a>所说的那样，一篇文章只能输入一个category，但可以有多个tag，我很同意这个观点。我这里也是用了他所用的两个插件<a href="https://github.com/robbyedwards/octopress-tag-pages">robbyedwards/octopress-tag-pages</a>和<a href="https://github.com/robbyedwards/octopress-tag-cloud">robbyedwards/octopress-tag-cloud</a>,不过跟他不同的是，我只用了官方网站上提供的两个插件，因为我觉得category还是排列整齐点的好，毕竟一个博客的category不会很多，没有必要弄成tag那种有大有小的样式，所以category我还沿用了Octopress官方的样式。这两个插件安装起来不太难，不过有些细节需要注意的。  <br/>
 第一个插件的功能是使文章支持<code>tag</code>，第二个是集中显示<code>tag cloud</code>。</p>
@@ -1309,9 +1309,9 @@ h) int (*a[10])(int); // An array of 10 pointers to functions that take an integ
   
   <entry>
     <title type="html"><![CDATA[给octopress添加Disqus评论功能]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/03/config-comment-on-octopress/"/>
+    <link href="http://seagg.github.com/blog/2012/09/03/config-comment-on-octopress/"/>
     <updated>2012-09-03T19:16:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/03/config-comment-on-octopress</id>
+    <id>http://seagg.github.com/blog/2012/09/03/config-comment-on-octopress</id>
     <content type="html"><![CDATA[<p>经过了几天的折腾，昨天终于把octopress博客建立好了。更新起来很方便，只需要编写类似Latex语言的markdown文件，然后<code>rake generate</code>, <code>rake deploy</code>就可以啦。</p>
 
 <p>今天加入了评论功能，这里主要记录下添加评论的过程。Octopress中其实已经集成了Disqus评论插件，只需要简单设置一下就可以。</p>
@@ -1323,7 +1323,7 @@ h) int (*a[10])(int); // An array of 10 pointers to functions that take an integ
 
 
 <center>
-<img src="http://lovejingru.github.com/images/add_comment1.PNG" >
+<img src="http://seagg.github.com/images/add_comment1.PNG" >
 </center>
 
 
@@ -1333,7 +1333,7 @@ h) int (*a[10])(int); // An array of 10 pointers to functions that take an integ
 
 
 <center>
-<img src="http://lovejingru.github.com/images/add_comment2.PNG">
+<img src="http://seagg.github.com/images/add_comment2.PNG">
 </center>
 
 
@@ -1356,9 +1356,9 @@ disqus_show_comment_count: true</code></pre>
   
   <entry>
     <title type="html"><![CDATA[Blogging Like a Hacker]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/03/blogging-like-a-hacker/"/>
+    <link href="http://seagg.github.com/blog/2012/09/03/blogging-like-a-hacker/"/>
     <updated>2012-09-03T12:42:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/03/blogging-like-a-hacker</id>
+    <id>http://seagg.github.com/blog/2012/09/03/blogging-like-a-hacker</id>
     <content type="html"><![CDATA[<p><strong>转载自<a href="http://tom.preston-werner.com/2008/11/17/blogging-like-a-hacker.html">Blogging like a hacker</a></strong></p>
 
 <p>h1. Blogging Like a Hacker</p>
@@ -1402,9 +1402,9 @@ disqus_show_comment_count: true</code></pre>
   
   <entry>
     <title type="html"><![CDATA[新的Blog]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/03/work-in-intel/"/>
+    <link href="http://seagg.github.com/blog/2012/09/03/work-in-intel/"/>
     <updated>2012-09-03T09:50:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/03/work-in-intel</id>
+    <id>http://seagg.github.com/blog/2012/09/03/work-in-intel</id>
     <content type="html"><![CDATA[<p>好费劲啊，octopress博客终于整好了。<br>
 我会慢慢的从网易博客<a href="http://blog.163.com/lovejingru@yeah/">永远的海哥</a>迁移到这里。  <br/>
 问题总结如下：</p>
@@ -1421,9 +1421,9 @@ public key问题： 按照github-&gt;admin-&gt;ssh key中的说明就可以了�
   
   <entry>
     <title type="html"><![CDATA[冒泡排序]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/02/hello/"/>
+    <link href="http://seagg.github.com/blog/2012/09/02/hello/"/>
     <updated>2012-09-02T23:10:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/02/hello</id>
+    <id>http://seagg.github.com/blog/2012/09/02/hello</id>
     <content type="html"><![CDATA[<p>冒泡排序</p>
 
 <figure class='code'><figcaption><span>bubble sort</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
@@ -1493,9 +1493,9 @@ public key问题： 按照github-&gt;admin-&gt;ssh key中的说明就可以了�
   
   <entry>
     <title type="html"><![CDATA[Intern in Intel]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/02/first-note/"/>
+    <link href="http://seagg.github.com/blog/2012/09/02/first-note/"/>
     <updated>2012-09-02T22:08:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/02/first-note</id>
+    <id>http://seagg.github.com/blog/2012/09/02/first-note</id>
     <content type="html"><![CDATA[<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;实习三周了，感觉还不错，从之前的不能想象我居然开始在公司里上班，到现在慢慢接受且熟悉了现在的生活。第一天到公司的时候，感觉什么都这么新鲜，刷卡进楼，再刷卡进办公区，看到很多忙碌的人，说着各种术语，还夹杂着英文单词，烧个image、这个得work on一下、更新下wiki，什么都这么陌生，我的电脑没配下来之前一直用一个台式电脑，装的居然还是OpenSUSE系统，好恨之前没把linux用熟，而且公司的网络还特别奇怪，得设置代理，设置完了吧用Firefox可以上去网，命令行里可以ping到网站，但一用命令下载什么软件包却始终连不上，到现在也没太整明白，只知道用IE可以上去公司的内网，火狐却不行，上公司的邮箱和lync需要一个无线网络连接，下软件包却需要换另一个网络连接，总之很麻烦。  <br/>
 公司里到处可以见到讨论技术的人，楼梯口的沙发，电梯里，等待打饭的人，甚至是卫生间里。卫生间里有个大叔专门负责清洁，把那擦的一尘不染，而且总是笑眯眯的，遇到人讨论架构啊系统啊什么的，感觉他跟我一样好奇，听着他们的对话，总有种错觉，那个大叔是intel的专家，掌握着鬼魅般的技术，笑看一切，好吧，我承认是黑客小说看多了。公司的食堂还不错，很便宜，而且第一顿饭的印象很好，记得打了份鸡腿，一份白菜豆腐，一碗米饭，一碗红豆粥，才8块几，据说这个食堂是有intel补贴的，怪不得呢，可惜就是不提供晚饭，谁让这边从不加班呢。每次到中午11：30去吃饭的人都很多，排好几个很长的队伍，然后取盘子，然后去窗口自己选一份份摆好的菜，然后是米饭和粥，再到出口那块刷饭卡，有两个漂亮的工作人员刷卡然后发一张餐巾纸，这两个人特别厉害，我观察过很多回了，那么多种类的菜，不同的价格，而且盘里两到三个菜加上饭和粥或汤，她们却能看一眼就算出来多少钱然后刷卡，不需要停顿，很强的，intel里到处都是神人啊！  <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;老板人很好，电话面试我的人就是他，记得当时问了很多c语言的东西，比如指针和数组的区别，复制构造函数怎么写等，到这边之后发现暂时还没用到c和c++，第一天刚来就带我一起去了一个会议室，跟我讲要做JIRA插件开发，同时接手一个要离职的同事的工作，老板讲话很和蔼，也很有条理，会时不时的看着你的眼睛，期待你的反馈，让我感动的是他居然亲自到我电脑这告诉我怎么申请出入办公区的卡，需要什么在线培训等，第一周基本是让我熟悉JIRA使用，每天都会来问问进展，有什么问题，第二周开始让我写daily report，包括昨天干了什么，今天打算干什么，遇到什么问题等，记得第一天写了之后没一会，他就过来给我讲我report里写的遇到的问题，很好的老板，口头语是没错，太对了，而且很喜欢笑，是个快乐的IT男。第二周开始与那个要离职的人交接，把他做过的、维护过的一些程序给我看，有将尽十个plugin和gadget，我差不多每天看一个，先熟悉功能，然后看看代码，不懂的的地方他就给我讲讲，可惜我的JAVA和js不是特别熟悉，而且JIRA有很多自己的API，还有SOAP和REST协议神马的，要一天之内理解他一两个月写出的程序，很有困难，所以也只能了解个大概，知道原理，具体的以后再深入研究吧。这周三开始有任务了，老板第一天就跟我说过，让我修改一个第三方插件，我一看，数了数，有90个类。。。 结构很复杂的样子，让我修改其中的bug，然后扩充一项功能，昨天看了一下午，晚上回来头昏昏沉沉的，但还得继续学java，其实虽说是插件，但每个插件基本都是一个网站，而且还是有前端，有后台action处理的，类似jsp和servlet组成的网站，但还有所不同，要用到jira的api，还有jira奇怪的前后台通信方式和它奇怪的数据库，唉，老板居然给我这个新手这么大的任务，崩溃了，看来明天还得去公司呆着去。  <br/>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: 数组 | 心静茹水]]></title>
-  <link href="http://lovejingru.github.com/tags/数组/atom.xml" rel="self"/>
-  <link href="http://lovejingru.github.com/"/>
-  <updated>2013-02-19T10:11:31+08:00</updated>
-  <id>http://lovejingru.github.com/</id>
+  <link href="http://seagg.github.com/tags/数组/atom.xml" rel="self"/>
+  <link href="http://seagg.github.com/"/>
+  <updated>2013-02-19T10:14:39+08:00</updated>
+  <id>http://seagg.github.com/</id>
   <author>
     <name><![CDATA[Zhao, Xuhai]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[指针数组与数组指针]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/06/array-and-pointer/"/>
+    <link href="http://seagg.github.com/blog/2012/09/06/array-and-pointer/"/>
     <updated>2012-09-06T08:59:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/06/array-and-pointer</id>
+    <id>http://seagg.github.com/blog/2012/09/06/array-and-pointer</id>
     <content type="html"><![CDATA[<p>昨天从面试宝典上看了道关于指针的面试题，发现这个上次绿盟科技笔试的时候考过，当时很凌乱，有几个记混了。</p>
 
 <p>题目是这样的：</p>

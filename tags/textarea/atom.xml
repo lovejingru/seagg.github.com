@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Tag: textarea | 心静茹水]]></title>
-  <link href="http://lovejingru.github.com/tags/textarea/atom.xml" rel="self"/>
-  <link href="http://lovejingru.github.com/"/>
-  <updated>2013-02-19T10:11:31+08:00</updated>
-  <id>http://lovejingru.github.com/</id>
+  <link href="http://seagg.github.com/tags/textarea/atom.xml" rel="self"/>
+  <link href="http://seagg.github.com/"/>
+  <updated>2013-02-19T10:14:39+08:00</updated>
+  <id>http://seagg.github.com/</id>
   <author>
     <name><![CDATA[Zhao, Xuhai]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[textarea的内容中含有html的情况]]></title>
-    <link href="http://lovejingru.github.com/blog/2012/09/10/string-html/"/>
+    <link href="http://seagg.github.com/blog/2012/09/10/string-html/"/>
     <updated>2012-09-10T11:22:00+08:00</updated>
-    <id>http://lovejingru.github.com/blog/2012/09/10/string-html</id>
+    <id>http://seagg.github.com/blog/2012/09/10/string-html</id>
     <content type="html"><![CDATA[<p>还有一周就可以回学校然后回家了，上周五很顺利的跟老板和经理请了两周假，所以这周得认真工作了。 <br/>
 接着测试我写的插件，果然发现了问题。。。  <br/>
 大概是这样的，这个插件是JIRA系统间传递issues，每个issue有很多的field，老板为了保证安全，要求在传输的时候检测每个域，看有没有指定的敏感关键字，如果有要求用户传输issue中进行修改，今天测试的时候，发现有个description域传输有问题，即如果description中含有关键字，要求用户在textarea中修改，程序再读取textarea中的内容重新存入issue中供传输。  <br/>
